@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Microsoft YaHei;
+  font-size: 16px;
+  color: #3e3e3e;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ebebeb;
+}
+.main {
+  width: 1134px;
+  height: 596px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+}
+.main .star {
+  width: 174px;
+  height: 230px;
+  margin: 128px 104px 156px 140px;
+}
+.main .data {
+  width: 500px;
+  height: 550px;
+  float: right;
+  margin-right: 216px;
+}
+.main .data h2 {
+  font-size: 16px;
+  margin-top: 66px;
+  margin-bottom: 18px;
+}
+.main .data .line {
+  margin-bottom: 15px;
+}
+.main .data .line span {
+  display: inline-block;
+  width: 70px;
+  margin-right: 10px;
+}
+.main .data .line input,
+.main .data .line .wantTime,
+.main .data .line .partner {
+  width: 262px;
+  height: 30px;
+}
+.main .data .line .province,
+.main .data .line .city {
+  width: 131px;
+  height: 30px;
+}
+.main .data .line .more {
+  display: inline-block;
+}
+.main .data .line .more .add {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background-color: #34c1b9;
+  border-radius: 50% 50%;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 8px;
+}
+.main .data .line .more span {
+  width: 85px;
+  font-size: 14px;
+}
+.main .data .send {
+  width: 262px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background-color: #34c1b9;
+  margin-left: 80px;
+  color: #fff;
+}

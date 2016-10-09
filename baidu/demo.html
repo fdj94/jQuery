@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+		}
+		.all{
+			width: 480px;
+			height: 40px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+			position: relative;
+		}
+		.main{
+			width: 370px;
+			height: 28px;
+			margin-left: auto;
+			margin-right: auto;
+			border: 1px solid black;
+			overflow: hidden;
+			position: relative;
+		}
+		.content{
+			width: 950px;
+			height : 28px;
+			position: absolute;
+		}
+		a{
+			width: 26px;
+			height: 26px;
+			text-align: center;
+			line-height: 26px;
+			border: 1px solid red;
+			display: inline-block;
+			margin-right: 10px;
+			cursor: pointer;
+		}
+		.upOne,.downOne{
+			width: 50px;
+			height: 28px;
+			text-align: center;
+			border: 1px solid blue;
+			line-height: 28px;
+			cursor: pointer;
+		}
+		.upOne{
+			position: absolute;
+			top: 0;
+			left : 0;
+		}
+		.downOne{
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+	</style>
+</head>
+<body>
+<div class="all">
+	<div class="main">
+		<div class="content">
+			<a>1</a><a>2</a><a>3</a><a>4</a><a>5</a><a>6</a><a>7</a><a>8</a><a>9</a><a>10</a><a>11</a><a>12</a><a>13</a><a>14</a><a>15</a><a>16</a><a>17</a><a>18</a><a>19</a><a>20</a><a>21</a><a>22</a><a>23</a><a>24</a><a>25</a>
+		</div>
+	</div>
+	<div class="upOne">上一页</div>
+	<div class="downOne">下一页</div>
+</div>
+<script src = "../lib/jQuery@1.12.4.min.js"></script>
+<script src = "./js/demo.js"></script>
+</body>
+</html>

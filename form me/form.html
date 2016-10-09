@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./css/form.css">
+</head>
+<body>
+	<div class="main">
+		<img src="./image/star.jpg" class="star" />
+		<div class="data">
+			<h2>填写项目资料，开始申请服务</h2>
+			<div class="line">
+				<span>项目名称:</span><input class="projectName" />
+			</div>
+			<div class="line">
+				<span>所 在 地:</span><select class="province">
+						<option>浙江省</option>
+						<option>上海市</option>
+						<option>江苏省</option>
+						<option>北京市</option>
+						<option>广东省</option>
+					</select><select class="city">
+						<option>杭州市</option>
+						<option>宁波市</option>
+						<option>温州市</option>
+						<option>绍兴市</option>
+						<option>舟山市</option>
+					</select>
+			</div>
+			<div class="line">
+				<span>项 目 方:</span><input />
+			</div>
+			<div class="line">
+				<span>合同金额:</span><input  placeholder="项目合同金额" class="projectMoney" />
+			</div>
+			<div class="line">
+				<span>申请金额:</span><input placeholder="材料采购金额" class="wantMoney" />
+			</div>
+			<div class="line">
+				<span>申请期限:</span><select class="wantTime">
+					<option>一天</option>
+					<option>一个月</option>
+					<option>一个季度</option>
+					<option>一个年</option>
+					<option>一个世纪</option>
+					<option>一辈子</option>
+					<option>你还想多久？？？</option>
+				</select>
+			</div>
+			<div class="line">
+				<span>合作厂家:</span><select class="partner">
+					<option>厂家名称</option>
+				</select>
+				<div class="more">
+					<span class="add">+</span>
+					<span>新增更多厂家</span>
+				</div>
+			</div>
+			<div class="send">
+				提交申请
+			</div>
+	</div>
+	<script type="text/javascript" src="./lib/jQuery@1.12.4.min.js"></script>
+	<script type="text/javascript" src="./js/form.js"></script>
+</body>
+</html>
